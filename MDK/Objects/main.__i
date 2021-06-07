@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User\APP -I ..\User\BSP -I ..\Library\CMSIS\CoreSupport -I ..\Library\CMSIS\DeviceSupport\ST\STM32F10x -I ..\Library\STM32F10x_StdPeriph_Driver\inc -I ..\Library\STM32F10x_StdPeriph_Driver\src
+-I.\RTE\_Project
+-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-ID:\keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "..\User\APP\main.c"
